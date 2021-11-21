@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+gym = "*"
+ipykernel = "*"
+pyglet = "*"
+matplotlib = "*"
+pyvirtualdisplay = "*"
+piglet = "*"
+gym-notebook-wrapper = "*"
+cma = "*"
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
